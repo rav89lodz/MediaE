@@ -1,0 +1,26 @@
+{
+    "name": "media-expert/backend",
+    "description": "Api to send request with items objects",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MediaExpert\\Backend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rafal.checinski"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0.14|^8.1.12"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/rav89lodz/media-expert-backend.git"
+        }
+    ]
+}
